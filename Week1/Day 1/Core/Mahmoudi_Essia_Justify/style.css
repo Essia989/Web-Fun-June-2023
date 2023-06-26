@@ -1,0 +1,12 @@
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+img{
+    width: 95px;
+}

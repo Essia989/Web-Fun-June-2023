@@ -1,0 +1,35 @@
+body
+{
+    font-family: roboto;
+}
+
+.nav{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    padding :0px 20px;
+}
+.nav-title{
+    color: white;
+    font-weight:lighter;
+}
+.nav-links{
+    
+    color: white;
+    font-weight:lighter;
+    font-size: 14px;    
+    justify-content: flex-end;
+    display: flex;
+
+}
+.nav-links li{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+a {
+    color: white;
+    text-decoration: none;
+    display: space-between;
+    
+}
