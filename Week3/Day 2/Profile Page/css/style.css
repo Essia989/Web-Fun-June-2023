@@ -1,0 +1,59 @@
+body
+{
+    font-family: roboto;
+}
+
+.nav{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color: white;
+    font-weight:lighter;
+    flex:5;
+    padding-left: 30px;
+}
+.nav-links{
+    
+    color: white;
+    font-weight:lighter;
+    font-size: 14px;    
+    display: flex;
+    flex: 5;
+
+}
+
+.nav-links li{
+    flex: 1;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+a {
+    color: white;
+    display: space-around;
+    justify-content: flex-end;
+    text-decoration: none;    
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(31, 176, 202);
+    cursor: pointer;
+}
+
+button{
+    height: 30px;
+    background-color: rgb(81, 207, 207);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+    box-shadow: 1px 1px 2px 1px rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(31, 176, 202);
+}
