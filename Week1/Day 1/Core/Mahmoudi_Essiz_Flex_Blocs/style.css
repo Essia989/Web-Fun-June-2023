@@ -2,45 +2,40 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
-    padding: 15px;
-    display: flex; 
+    padding: 20px;
 }
 .top-nav {
+    margin-bottom: 20px ;
     height: 150px;
-    width: 920px;
     background-color: green;
-    margin-bottom: 15px;
-    align-items: flex-start;
-
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
-    display: inline-block;
+    margin-right: 20px;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
-
-    display: flex;
+    justify-content: space-around;
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
-    display: inline-block;
-    align-items: center;
-
+    margin: 15px;
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    align-items: flex-end;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .row {
-    /* TODO - what should go here? */
+    display: flex;
+    justify-content: space-between;
 }
 

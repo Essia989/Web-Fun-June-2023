@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    background-color: aquamarine;
+    color: aliceblue;
+}
+.main, .nav-list{
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav-list{
+    display: flex; 
+    align-items: center;
+    height: 120 px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav-links{
+    width: 40%;
+    display: flex;  
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.nav h1 {
+font-size: 2.5em;
+}
